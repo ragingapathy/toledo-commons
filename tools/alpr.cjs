@@ -22,7 +22,7 @@ function bearing(v) {
 const query = bbox => '[out:json][timeout:90];node["surveillance:type"="ALPR"](' + [bbox[1], bbox[0], bbox[3], bbox[2]].join(',') + ');out body;';
 
 async function fetchNodes(bbox, { endpoints = ENDPOINTS, fetchImpl = fetch, pauseMs = 6000 } = {}) {
-  let last = null;
+  const errors = [];
   for (let round = 0; round < 2; round++) for (const url of endpoints) {
     if (round) await new Promise(r => setTimeout(r, pauseMs));
     const ctl = new AbortController(), timer = setTimeout(() => ctl.abort(), 100000);
@@ -32,9 +32,9 @@ async function fetchNodes(bbox, { endpoints = ENDPOINTS, fetchImpl = fetch, paus
       const json = await r.json();
       if (!json || !Array.isArray(json.elements)) throw new Error('unexpected reply');
       return { elements: json.elements, asOf: (json.osm3s && typeof json.osm3s.timestamp_osm_base === 'string') ? json.osm3s.timestamp_osm_base : '' };
-    } catch (e) { last = e; } finally { clearTimeout(timer); }
+    } catch (e) { errors.push(new URL(url).hostname + ': ' + (e && e.message)); } finally { clearTimeout(timer); }
   }
-  throw last || new Error('no Overpass endpoint answered');
+  throw new Error(errors.join('; ') || 'no Overpass endpoint answered');
 }
 
 function normalize(elements, { max = 3000 } = {}) {
