@@ -27,7 +27,7 @@ async function dataset({ format, previous, now, maxStaleHours, source, run, minH
   try {
     const got = await run();
     if (got.skipped) { entry.status = 'skipped'; entry.note = got.skipped; }
-    else { items = got.items; entry.status = 'ok'; entry.fetched = now.toISOString(); entry.count = items.length; }
+    else { items = got.items; entry.status = 'ok'; entry.fetched = now.toISOString(); entry.count = items.length; if (got.extra) Object.assign(entry, got.extra); }
   } catch (e) { entry.status = 'failed'; entry.note = String(e && e.message || e).replace(/\s+/g, ' ').slice(0, 120); }
   if (items === null) {
     if (old && old.source.fetched && Date.parse(old.source.fetched) > now.getTime() - maxStaleHours * HOUR) { items = old.items; entry.status = 'stale'; entry.fetched = old.source.fetched; entry.count = items.length; }
@@ -50,7 +50,7 @@ async function buildCivic({ config, previousDir = null, now = new Date(), env = 
   const a = config.alpr;
   if (a && a.enabled !== false) {
     const src = { id: 'osm-alpr', name: 'Plate readers mapped on OpenStreetMap', publisher: 'OpenStreetMap contributors (mapped with DeFlock)', homepage: 'https://deflock.org/', license: 'ODbL-1.0', attribution: '© OpenStreetMap contributors' };
-    files['alpr.json'] = await dataset({ format: 'orient-alpr', previous: prev('alpr.json'), now, maxStaleHours: 14 * 24, minHours: a.minHours ?? 20, source: src, run: async () => ({ items: alpr.normalize(await alpr.fetchNodes(config.bbox, { endpoints: overpassEndpoints, fetchImpl })) }) });
+    files['alpr.json'] = await dataset({ format: 'orient-alpr', previous: prev('alpr.json'), now, maxStaleHours: 14 * 24, minHours: a.minHours ?? 20, source: src, run: async () => { const r = await alpr.fetchNodes(config.bbox, { endpoints: overpassEndpoints, fetchImpl, pauseMs: a.pauseMs }); return { items: alpr.normalize(r.elements), extra: r.asOf ? { dataAsOf: r.asOf } : {} }; } });
   }
   return files;
 }
