@@ -1,6 +1,6 @@
 'use strict';
-// Reads the work-zone (WZDx) feeds in a config and builds roadwork.json. Used by fetch-civic.cjs, and runnable on its own:
-//   node tools/fetch-roadwork.cjs [--config civic.config.json] [--previous previous.json] [--out roadwork.json]
+// Reads the work-zone (WZDx) feeds in a config and builds roadwork.json. Used by fetch-live.cjs, and runnable on its own:
+//   node tools/fetch-roadwork.cjs [--config live.config.json] [--previous previous.json] [--out roadwork.json]
 // API keys come from environment variables (GitHub Actions secrets) and are never written anywhere or printed.
 // One feed failing never empties the file: its last good data is kept for up to six hours.
 
@@ -56,7 +56,7 @@ async function buildRoadwork(config, previous, now = new Date(), env = process.e
 
 async function main() {
   const root = path.join(__dirname, '..');
-  const raw = JSON.parse(fs.readFileSync(path.resolve(arg('config', path.join(root, 'civic.config.json'))), 'utf8'));
+  const raw = JSON.parse(fs.readFileSync(path.resolve(arg('config', path.join(root, 'live.config.json'))), 'utf8'));
   const config = raw.wzdx ? { name: raw.name, bbox: raw.bbox, feeds: raw.wzdx.feeds } : raw;
   let previous = null; try { previous = JSON.parse(fs.readFileSync(path.resolve(arg('previous', 'previous.json')), 'utf8')); } catch { /* the first run has none */ }
   const out = await buildRoadwork(config, previous);
