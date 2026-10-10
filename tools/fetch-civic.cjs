@@ -28,7 +28,7 @@ async function dataset({ format, previous, now, maxStaleHours, source, run, minH
     const got = await run();
     if (got.skipped) { entry.status = 'skipped'; entry.note = got.skipped; }
     else { items = got.items; entry.status = 'ok'; entry.fetched = now.toISOString(); entry.count = items.length; if (got.extra) Object.assign(entry, got.extra); }
-  } catch (e) { entry.status = 'failed'; entry.note = String(e && e.message || e).replace(/\s+/g, ' ').slice(0, 120); }
+  } catch (e) { entry.status = 'failed'; entry.note = String(e && e.message || e).replace(/\s+/g, ' ').slice(0, 300); }
   if (items === null) {
     if (old && old.source.fetched && Date.parse(old.source.fetched) > now.getTime() - maxStaleHours * HOUR) { items = old.items; entry.status = 'stale'; entry.fetched = old.source.fetched; entry.count = items.length; }
     else items = [];
