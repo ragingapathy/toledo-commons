@@ -4,7 +4,8 @@
 // facts the app shows (where, which way it faces, who runs it, what make) and publishes one small file. OpenStreetMap data is
 // © OpenStreetMap contributors, available under the Open Database License (https://www.openstreetmap.org/copyright).
 
-const ENDPOINTS = ['https://overpass-api.de/api/interpreter', 'https://overpass.kumi.systems/api/interpreter'];
+// The main server has the freshest data; the others are mirrors that can be weeks behind, so they are only a fallback.
+const ENDPOINTS = ['https://overpass-api.de/api/interpreter', 'https://overpass.private.coffee/api/interpreter', 'https://overpass.kumi.systems/api/interpreter'];
 const text = (v, max) => typeof v === 'string' ? v.replace(/[\u0000-\u001f\u007f]/g, ' ').replace(/\s+/g, ' ').trim().slice(0, max) : '';
 const round = v => Math.round(v * 1e5) / 1e5;
 const COMPASS = { n: 0, nne: 22.5, ne: 45, ene: 67.5, e: 90, ese: 112.5, se: 135, sse: 157.5, s: 180, ssw: 202.5, sw: 225, wsw: 247.5, w: 270, wnw: 292.5, nw: 315, nnw: 337.5, north: 0, northeast: 45, east: 90, southeast: 135, south: 180, southwest: 225, west: 270, northwest: 315 };
@@ -17,18 +18,20 @@ function bearing(v) {
   return first in COMPASS ? COMPASS[first] : null;
 }
 
-const query = bbox => '[out:json][timeout:90];(node["surveillance:type"~"^ALPR$",i](' + [bbox[1], bbox[0], bbox[3], bbox[2]].join(',') + '););out body;';
+// an exact tag match is cheap for the server; a regular expression on the key made the main server time out
+const query = bbox => '[out:json][timeout:90];node["surveillance:type"="ALPR"](' + [bbox[1], bbox[0], bbox[3], bbox[2]].join(',') + ');out body;';
 
-async function fetchNodes(bbox, { endpoints = ENDPOINTS, fetchImpl = fetch } = {}) {
+async function fetchNodes(bbox, { endpoints = ENDPOINTS, fetchImpl = fetch, pauseMs = 6000 } = {}) {
   let last = null;
-  for (const url of endpoints) {
+  for (let round = 0; round < 2; round++) for (const url of endpoints) {
+    if (round) await new Promise(r => setTimeout(r, pauseMs));
     const ctl = new AbortController(), timer = setTimeout(() => ctl.abort(), 100000);
     try {
       const r = await fetchImpl(url, { method: 'POST', headers: { 'Content-Type': 'application/x-www-form-urlencoded', 'User-Agent': 'orient-commons-civic (+https://github.com/ragingapathy/orient)' }, body: 'data=' + encodeURIComponent(query(bbox)), signal: ctl.signal });
       if (!r.ok) throw new Error('HTTP ' + r.status);
       const json = await r.json();
       if (!json || !Array.isArray(json.elements)) throw new Error('unexpected reply');
-      return json.elements;
+      return { elements: json.elements, asOf: (json.osm3s && typeof json.osm3s.timestamp_osm_base === 'string') ? json.osm3s.timestamp_osm_base : '' };
     } catch (e) { last = e; } finally { clearTimeout(timer); }
   }
   throw last || new Error('no Overpass endpoint answered');
