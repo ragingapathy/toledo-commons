@@ -17,6 +17,15 @@
         -83.56261511147,
         41.691656888482
       ]
+    },
+    {
+      "source_id": "commons-460e8f34-fe52-4d41-a4f9-e1404371cc07",
+      "id": "place-3882eccb-b214-48c3-8a64-5679f4d32c80",
+      "name": "Bergers Old Tyme",
+      "coordinates": [
+        -83.586574927413,
+        41.706843445885
+      ]
     }
   ],
   "claims": [
@@ -28,6 +37,21 @@
         "place_id": "place-05c9bfdb-9a5b-4a06-ba2e-64edd5ef6409",
         "kind": "other",
         "observation": "Business type: chain or corporate business.",
+        "source": {
+          "type": "personal_observation"
+        },
+        "asserted_on": "2026-10-11",
+        "status": "active"
+      }
+    },
+    {
+      "source_id": "commons-460e8f34-fe52-4d41-a4f9-e1404371cc07",
+      "claim": {
+        "schema_version": 1,
+        "id": "claim-436d5d16-1664-45e2-bdef-5066609c0fee",
+        "place_id": "place-3882eccb-b214-48c3-8a64-5679f4d32c80",
+        "kind": "entry",
+        "observation": "My favorite burgers in the city, though they don’t have many “wild” options\nRemember that Bergers Old Tyme has delicious and substantial burgers, but they lack the variety or wild offerings of say, a Red Robin.",
         "source": {
           "type": "personal_observation"
         },
