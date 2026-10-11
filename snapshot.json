@@ -1,7 +1,39 @@
 {
   "format": "orient-commons",
   "schema_version": 1,
-  "sources": [],
-  "places": [],
-  "claims": []
+  "sources": [
+    {
+      "id": "commons-460e8f34-fe52-4d41-a4f9-e1404371cc07",
+      "name": "My place commons",
+      "license": "CC-BY-4.0"
+    }
+  ],
+  "places": [
+    {
+      "source_id": "commons-460e8f34-fe52-4d41-a4f9-e1404371cc07",
+      "id": "place-05c9bfdb-9a5b-4a06-ba2e-64edd5ef6409",
+      "name": "Taco Bell",
+      "coordinates": [
+        -83.56261511147,
+        41.691656888482
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "source_id": "commons-460e8f34-fe52-4d41-a4f9-e1404371cc07",
+      "claim": {
+        "schema_version": 1,
+        "id": "claim-728f38ad-ae2a-4cc1-a348-a04c0978c9db",
+        "place_id": "place-05c9bfdb-9a5b-4a06-ba2e-64edd5ef6409",
+        "kind": "other",
+        "observation": "Business type: chain or corporate business.",
+        "source": {
+          "type": "personal_observation"
+        },
+        "asserted_on": "2026-10-11",
+        "status": "active"
+      }
+    }
+  ]
 }
