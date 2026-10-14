@@ -1,0 +1,40 @@
+{
+  "format": "orient-commons",
+  "schema_version": 1,
+  "sources": [
+    {
+      "id": "demo-contributor",
+      "name": "Demo contributor (example)",
+      "license": "CC-BY-4.0"
+    }
+  ],
+  "places": [
+    {
+      "source_id": "demo-contributor",
+      "id": "toledo-museum-of-art",
+      "name": "Toledo Museum of Art",
+      "coordinates": [
+        -83.55932,
+        41.65832
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "source_id": "demo-contributor",
+      "claim": {
+        "schema_version": 1,
+        "id": "tma-demo-note",
+        "place_id": "toledo-museum-of-art",
+        "kind": "browse",
+        "observation": "Example note for the contributor-flow demo: this is what a shared observation looks like when it reaches maintainer review. Nothing to merge here \u2014 the real flow begins when you share a note of your own.",
+        "source": {
+          "type": "personal_observation"
+        },
+        "asserted_by": "demo-contributor",
+        "asserted_on": "2026-10-14",
+        "status": "active"
+      }
+    }
+  ]
+}
