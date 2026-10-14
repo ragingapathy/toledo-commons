@@ -32,6 +32,12 @@ You choose which observations to bring onto your own map. Nothing is added until
 
 The same file is a plain [Orient commons bundle](https://github.com/ragingapathy/orient/tree/main/commons) (format `orient-commons`, version 1), so other tools can read it. If the commons grows past what one file can hold, it continues in `snapshot-2.json` and onward.
 
+## Seed bundles
+
+`contributions/seed-toledo-food-specials.json` is the maintainer's seed: the October 2026 Toledo food-specials research as a public bundle — 30 venues, 39 map pins, 46 recurring listings (58 claims; venues with more than one address get one claim per pin). Every claim carries its provenance: the published guide it was drawn from and the retrieval date. Two national-chain listings from the research are left out because a commons place needs a pin and they have no fixed Toledo address.
+
+Specials change, so confirm with the venue before heading out. To correct a listing, contribute a new file that repeats its claim id with the new text, the same as any other correction.
+
 ## Corrections and removals
 
 Contributions are never edited. To correct an observation, add a new contribution that repeats its id with the new text. To take one back, repeat it with `"status": "retired"`; the snapshot keeps it, marked as retired. If an observation names a person or is wrong about a place, open an issue and it will be retired.
