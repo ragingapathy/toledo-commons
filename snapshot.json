@@ -6,6 +6,12 @@
       "id": "commons-460e8f34-fe52-4d41-a4f9-e1404371cc07",
       "name": "My place commons",
       "license": "CC-BY-4.0"
+    },
+    {
+      "id": "toledo-food-specials",
+      "name": "Toledo food-specials research",
+      "license": "CC-BY-4.0",
+      "url": "https://github.com/ragingapathy/toledo-commons"
     }
   ],
   "places": [
@@ -25,6 +31,357 @@
       "coordinates": [
         -83.586574927413,
         41.706843445885
+      ]
+    },
+    {
+      "source_id": "toledo-food-specials",
+      "id": "assembly-downtown",
+      "name": "Assembly Downtown Kitchen & Bar",
+      "coordinates": [
+        -83.53612,
+        41.64875
+      ]
+    },
+    {
+      "source_id": "toledo-food-specials",
+      "id": "bar-145",
+      "name": "Bar 145",
+      "coordinates": [
+        -83.65575,
+        41.70239
+      ]
+    },
+    {
+      "source_id": "toledo-food-specials",
+      "id": "barrs-public-house",
+      "name": "Barr's Public House",
+      "coordinates": [
+        -83.69507,
+        41.58019
+      ]
+    },
+    {
+      "source_id": "toledo-food-specials",
+      "id": "bier-stube",
+      "name": "Bier Stube",
+      "coordinates": [
+        -83.65827,
+        41.70309
+      ]
+    },
+    {
+      "source_id": "toledo-food-specials",
+      "id": "blarney-irish-pub",
+      "name": "Blarney Irish Pub",
+      "coordinates": [
+        -83.5394,
+        41.64963
+      ]
+    },
+    {
+      "source_id": "toledo-food-specials",
+      "id": "borderline-grill",
+      "name": "Borderline Grill",
+      "coordinates": [
+        -83.74344,
+        41.7153
+      ]
+    },
+    {
+      "source_id": "toledo-food-specials",
+      "id": "ciao",
+      "name": "Ciao",
+      "coordinates": [
+        -83.68915,
+        41.71574
+      ]
+    },
+    {
+      "source_id": "toledo-food-specials",
+      "id": "dickeys-barbecue-pit",
+      "name": "Dickey's Barbecue Pit",
+      "coordinates": [
+        -83.5942,
+        41.54594
+      ]
+    },
+    {
+      "source_id": "toledo-food-specials",
+      "id": "dorr-st-cafe",
+      "name": "Dorr St. Cafe",
+      "coordinates": [
+        -83.6662,
+        41.65283
+      ]
+    },
+    {
+      "source_id": "toledo-food-specials",
+      "id": "el-patron",
+      "name": "El Patron",
+      "coordinates": [
+        -83.68343,
+        41.67962
+      ]
+    },
+    {
+      "source_id": "toledo-food-specials",
+      "id": "el-vaquero-main-st",
+      "name": "El Vaquero – Main St",
+      "coordinates": [
+        -83.52932,
+        41.64766
+      ]
+    },
+    {
+      "source_id": "toledo-food-specials",
+      "id": "el-vaquero-perrysburg",
+      "name": "El Vaquero – Perrysburg",
+      "coordinates": [
+        -83.63727,
+        41.53863
+      ]
+    },
+    {
+      "source_id": "toledo-food-specials",
+      "id": "el-vaquero-secor",
+      "name": "El Vaquero – Secor Rd",
+      "coordinates": [
+        -83.62224,
+        41.68047
+      ]
+    },
+    {
+      "source_id": "toledo-food-specials",
+      "id": "frontera-sabores-de-mexico",
+      "name": "Frontera Sabores de México",
+      "coordinates": [
+        -83.66901,
+        41.61641
+      ]
+    },
+    {
+      "source_id": "toledo-food-specials",
+      "id": "fuzzys-taco-shop",
+      "name": "Fuzzy's Taco Shop",
+      "coordinates": [
+        -83.62463,
+        41.67838
+      ]
+    },
+    {
+      "source_id": "toledo-food-specials",
+      "id": "home-slice-pizza",
+      "name": "Home Slice Pizza",
+      "coordinates": [
+        -83.53892,
+        41.64675
+      ]
+    },
+    {
+      "source_id": "toledo-food-specials",
+      "id": "jamos-pub",
+      "name": "Jamo's Pub",
+      "coordinates": [
+        -83.62175,
+        41.69154
+      ]
+    },
+    {
+      "source_id": "toledo-food-specials",
+      "id": "la-chalupa",
+      "name": "La Chalupa",
+      "coordinates": [
+        -83.47865,
+        41.73115
+      ]
+    },
+    {
+      "source_id": "toledo-food-specials",
+      "id": "mancys-bluewater-grille",
+      "name": "Mancy's Bluewater Grille",
+      "coordinates": [
+        -83.67833,
+        41.58103
+      ]
+    },
+    {
+      "source_id": "toledo-food-specials",
+      "id": "manhattans-pub-n-cheer",
+      "name": "Manhattan's Pub 'N Cheer",
+      "coordinates": [
+        -83.54387,
+        41.6576
+      ]
+    },
+    {
+      "source_id": "toledo-food-specials",
+      "id": "nakama",
+      "name": "Nakama Japanese Steakhouse & Sushi",
+      "coordinates": [
+        -83.67849,
+        41.58226
+      ]
+    },
+    {
+      "source_id": "toledo-food-specials",
+      "id": "old-bag-of-nails-promedica",
+      "name": "Old Bag of Nails – Promedica Pkwy",
+      "coordinates": [
+        -83.59338,
+        41.67697
+      ]
+    },
+    {
+      "source_id": "toledo-food-specials",
+      "id": "old-bag-of-nails-riverside",
+      "name": "Old Bag of Nails Pub – Riverside",
+      "coordinates": [
+        -83.52537,
+        41.6514
+      ]
+    },
+    {
+      "source_id": "toledo-food-specials",
+      "id": "paddy-jacks",
+      "name": "Paddy Jack's",
+      "coordinates": [
+        -83.70412,
+        41.67456
+      ]
+    },
+    {
+      "source_id": "toledo-food-specials",
+      "id": "poco-piatti-perrysburg",
+      "name": "Poco Piatti – Perrysburg",
+      "coordinates": [
+        -83.6396,
+        41.52671
+      ]
+    },
+    {
+      "source_id": "toledo-food-specials",
+      "id": "poco-piatti-sylvania",
+      "name": "Poco Piatti – Sylvania",
+      "coordinates": [
+        -83.70347,
+        41.67617
+      ]
+    },
+    {
+      "source_id": "toledo-food-specials",
+      "id": "real-seafood-company",
+      "name": "Real Seafood Company",
+      "coordinates": [
+        -83.52937,
+        41.64781
+      ]
+    },
+    {
+      "source_id": "toledo-food-specials",
+      "id": "rosies-italian-grille",
+      "name": "Rosie's Italian Grille",
+      "coordinates": [
+        -83.70302,
+        41.64703
+      ]
+    },
+    {
+      "source_id": "toledo-food-specials",
+      "id": "sidelines-maumee",
+      "name": "Sidelines Sports Eatery – Maumee",
+      "coordinates": [
+        -83.66742,
+        41.58246
+      ]
+    },
+    {
+      "source_id": "toledo-food-specials",
+      "id": "sidelines-mellwood",
+      "name": "Sidelines Sports Eatery – Mellwood Ave",
+      "coordinates": [
+        -83.59462,
+        41.70638
+      ]
+    },
+    {
+      "source_id": "toledo-food-specials",
+      "id": "sidelines-perrysburg",
+      "name": "Sidelines Sports Eatery – Perrysburg",
+      "coordinates": [
+        -83.62162,
+        41.54392
+      ]
+    },
+    {
+      "source_id": "toledo-food-specials",
+      "id": "sidelines-renaissance",
+      "name": "Sidelines Sports Eatery – Renaissance Pl",
+      "coordinates": [
+        -83.6888,
+        41.69666
+      ]
+    },
+    {
+      "source_id": "toledo-food-specials",
+      "id": "sidelines-telegraph",
+      "name": "Sidelines Sports Eatery – Telegraph Rd",
+      "coordinates": [
+        -83.54684,
+        41.72244
+      ]
+    },
+    {
+      "source_id": "toledo-food-specials",
+      "id": "stubborn-brother-pizza-bar",
+      "name": "Stubborn Brother Pizza Bar",
+      "coordinates": [
+        -83.619,
+        41.66281
+      ]
+    },
+    {
+      "source_id": "toledo-food-specials",
+      "id": "taqueria-el-gallo-de-oro",
+      "name": "Taqueria El Gallo de Oro",
+      "coordinates": [
+        -83.62186,
+        41.68176
+      ]
+    },
+    {
+      "source_id": "toledo-food-specials",
+      "id": "tekela-perrysburg",
+      "name": "Te'kela Mexican Cocina y Cantina – Perrysburg",
+      "coordinates": [
+        -83.63845,
+        41.52189
+      ]
+    },
+    {
+      "source_id": "toledo-food-specials",
+      "id": "tekela-sylvania",
+      "name": "Te'kela Mexican Cocina y Cantina – Sylvania",
+      "coordinates": [
+        -83.70016,
+        41.70772
+      ]
+    },
+    {
+      "source_id": "toledo-food-specials",
+      "id": "the-distillery",
+      "name": "The Distillery",
+      "coordinates": [
+        -83.64404,
+        41.59381
+      ]
+    },
+    {
+      "source_id": "toledo-food-specials",
+      "id": "this-is-it-drinks-bbq",
+      "name": "This Is It – Drinks & BBQ",
+      "coordinates": [
+        -83.58372,
+        41.6431
       ]
     }
   ],
@@ -56,6 +413,992 @@
           "type": "personal_observation"
         },
         "asserted_on": "2026-10-11",
+        "status": "active"
+      }
+    },
+    {
+      "source_id": "toledo-food-specials",
+      "claim": {
+        "schema_version": 1,
+        "id": "assembly-downtown-daily",
+        "place_id": "assembly-downtown",
+        "kind": "timing",
+        "observation": "Daily 4–7pm happy hour.",
+        "source": {
+          "type": "published_source",
+          "url": "https://toledocitypaper.com/food-drink/the-happiest-hours-in-toledo/",
+          "retrieved_on": "2026-10-08"
+        },
+        "asserted_on": "2026-10-08",
+        "status": "active"
+      }
+    },
+    {
+      "source_id": "toledo-food-specials",
+      "claim": {
+        "schema_version": 1,
+        "id": "bar-145-daily",
+        "place_id": "bar-145",
+        "kind": "timing",
+        "observation": "Mon–Fri 4–6pm: half off apps & drinks.",
+        "source": {
+          "type": "published_source",
+          "url": "https://toledocitypaper.com/food-drink/the-happiest-hours-in-toledo/",
+          "retrieved_on": "2026-10-08"
+        },
+        "asserted_on": "2026-10-08",
+        "status": "active"
+      }
+    },
+    {
+      "source_id": "toledo-food-specials",
+      "claim": {
+        "schema_version": 1,
+        "id": "barrs-public-house-mon",
+        "place_id": "barrs-public-house",
+        "kind": "timing",
+        "observation": "Mondays: happy hour 3–6pm — $6 apps, drafts, wine by the glass.",
+        "source": {
+          "type": "published_source",
+          "url": "https://toledocitypaper.com/food-drink/the-happiest-hours-in-toledo/",
+          "retrieved_on": "2026-10-08"
+        },
+        "asserted_on": "2026-10-08",
+        "status": "active"
+      }
+    },
+    {
+      "source_id": "toledo-food-specials",
+      "claim": {
+        "schema_version": 1,
+        "id": "barrs-public-house-thu",
+        "place_id": "barrs-public-house",
+        "kind": "timing",
+        "observation": "Thursdays: extended happy hour 3–9pm.",
+        "source": {
+          "type": "published_source",
+          "url": "https://toledocitypaper.com/food-drink/the-happiest-hours-in-toledo/",
+          "retrieved_on": "2026-10-08"
+        },
+        "asserted_on": "2026-10-08",
+        "status": "active"
+      }
+    },
+    {
+      "source_id": "toledo-food-specials",
+      "claim": {
+        "schema_version": 1,
+        "id": "bier-stube-fri",
+        "place_id": "bier-stube",
+        "kind": "timing",
+        "observation": "Fridays: $4 sangria on tap.",
+        "source": {
+          "type": "published_source",
+          "url": "https://www.toledo.com/happy-hour-specials/",
+          "retrieved_on": "2026-10-08"
+        },
+        "asserted_on": "2026-10-08",
+        "status": "active"
+      }
+    },
+    {
+      "source_id": "toledo-food-specials",
+      "claim": {
+        "schema_version": 1,
+        "id": "bier-stube-mon",
+        "place_id": "bier-stube",
+        "kind": "timing",
+        "observation": "Mondays: $6 Stube burger + $2 lager. Daily specials run until midnight, dine-in only.",
+        "source": {
+          "type": "published_source",
+          "url": "https://www.toledo.com/happy-hour-specials/",
+          "retrieved_on": "2026-10-08"
+        },
+        "asserted_on": "2026-10-08",
+        "status": "active"
+      }
+    },
+    {
+      "source_id": "toledo-food-specials",
+      "claim": {
+        "schema_version": 1,
+        "id": "bier-stube-sat",
+        "place_id": "bier-stube",
+        "kind": "timing",
+        "observation": "Saturdays: $4 mimosas.",
+        "source": {
+          "type": "published_source",
+          "url": "https://www.toledo.com/happy-hour-specials/",
+          "retrieved_on": "2026-10-08"
+        },
+        "asserted_on": "2026-10-08",
+        "status": "active"
+      }
+    },
+    {
+      "source_id": "toledo-food-specials",
+      "claim": {
+        "schema_version": 1,
+        "id": "bier-stube-sun",
+        "place_id": "bier-stube",
+        "kind": "timing",
+        "observation": "Sundays: 75¢ wings; $6 PB&J sandwich.",
+        "source": {
+          "type": "published_source",
+          "url": "https://www.toledo.com/happy-hour-specials/",
+          "retrieved_on": "2026-10-08"
+        },
+        "asserted_on": "2026-10-08",
+        "status": "active"
+      }
+    },
+    {
+      "source_id": "toledo-food-specials",
+      "claim": {
+        "schema_version": 1,
+        "id": "bier-stube-thu",
+        "place_id": "bier-stube",
+        "kind": "timing",
+        "observation": "Thursdays: $9 chicken chunks with sauce & fries; $3 White Claws.",
+        "source": {
+          "type": "published_source",
+          "url": "https://www.toledo.com/happy-hour-specials/",
+          "retrieved_on": "2026-10-08"
+        },
+        "asserted_on": "2026-10-08",
+        "status": "active"
+      }
+    },
+    {
+      "source_id": "toledo-food-specials",
+      "claim": {
+        "schema_version": 1,
+        "id": "bier-stube-tue",
+        "place_id": "bier-stube",
+        "kind": "timing",
+        "observation": "Tuesdays: $1.50 beef tacos, $1 chips & salsa, $2 margaritas.",
+        "source": {
+          "type": "published_source",
+          "url": "https://www.eatdrinkdeals.com/tuesday-restaurant-specials-and-deals/",
+          "retrieved_on": "2026-10-08"
+        },
+        "asserted_on": "2026-10-08",
+        "status": "active"
+      }
+    },
+    {
+      "source_id": "toledo-food-specials",
+      "claim": {
+        "schema_version": 1,
+        "id": "bier-stube-wed",
+        "place_id": "bier-stube",
+        "kind": "timing",
+        "observation": "Wednesdays: half-price hot dogs, $1 off mules.",
+        "source": {
+          "type": "published_source",
+          "url": "https://www.toledo.com/happy-hour-specials/",
+          "retrieved_on": "2026-10-08"
+        },
+        "asserted_on": "2026-10-08",
+        "status": "active"
+      }
+    },
+    {
+      "source_id": "toledo-food-specials",
+      "claim": {
+        "schema_version": 1,
+        "id": "blarney-irish-pub-fri",
+        "place_id": "blarney-irish-pub",
+        "kind": "timing",
+        "observation": "Fridays 2–4pm: 50% off any appetizer.",
+        "source": {
+          "type": "published_source",
+          "url": "https://toledocitypaper.com/food-drink/the-happiest-hours-in-toledo/",
+          "retrieved_on": "2026-10-08"
+        },
+        "asserted_on": "2026-10-08",
+        "status": "active"
+      }
+    },
+    {
+      "source_id": "toledo-food-specials",
+      "claim": {
+        "schema_version": 1,
+        "id": "blarney-irish-pub-mon",
+        "place_id": "blarney-irish-pub",
+        "kind": "timing",
+        "observation": "Mondays: $4 select pints 2–9pm; $5 Guinness pints 5–6pm.",
+        "source": {
+          "type": "published_source",
+          "url": "https://toledocitypaper.com/food-drink/the-happiest-hours-in-toledo/",
+          "retrieved_on": "2026-10-08"
+        },
+        "asserted_on": "2026-10-08",
+        "status": "active"
+      }
+    },
+    {
+      "source_id": "toledo-food-specials",
+      "claim": {
+        "schema_version": 1,
+        "id": "blarney-irish-pub-wed",
+        "place_id": "blarney-irish-pub",
+        "kind": "timing",
+        "observation": "Wednesdays: $15 domestic bottle quintet (beer) all day; $5 Guinness 5–6pm.",
+        "source": {
+          "type": "published_source",
+          "url": "https://toledocitypaper.com/food-drink/the-happiest-hours-in-toledo/",
+          "retrieved_on": "2026-10-08"
+        },
+        "asserted_on": "2026-10-08",
+        "status": "active"
+      }
+    },
+    {
+      "source_id": "toledo-food-specials",
+      "claim": {
+        "schema_version": 1,
+        "id": "borderline-grill-tue",
+        "place_id": "borderline-grill",
+        "kind": "timing",
+        "observation": "Tuesdays: extended happy hour 3–9pm.",
+        "source": {
+          "type": "published_source",
+          "url": "https://toledocitypaper.com/food-drink/the-happiest-hours-in-toledo/",
+          "retrieved_on": "2026-10-08"
+        },
+        "asserted_on": "2026-10-08",
+        "status": "active"
+      }
+    },
+    {
+      "source_id": "toledo-food-specials",
+      "claim": {
+        "schema_version": 1,
+        "id": "ciao-daily",
+        "place_id": "ciao",
+        "kind": "timing",
+        "observation": "Nightly: drink specials, $6 select apps, $8 pizza.",
+        "source": {
+          "type": "published_source",
+          "url": "https://toledocitypaper.com/food-drink/the-happiest-hours-in-toledo/",
+          "retrieved_on": "2026-10-08"
+        },
+        "asserted_on": "2026-10-08",
+        "status": "active"
+      }
+    },
+    {
+      "source_id": "toledo-food-specials",
+      "claim": {
+        "schema_version": 1,
+        "id": "dickeys-barbecue-pit-thu",
+        "place_id": "dickeys-barbecue-pit",
+        "kind": "timing",
+        "observation": "Thursdays: Classic Meal Deal $8.85. Reopened March 2026 after a fire.",
+        "source": {
+          "type": "published_source",
+          "url": "https://www.toledo.com/happy-hour-specials/",
+          "retrieved_on": "2026-10-08"
+        },
+        "asserted_on": "2026-10-08",
+        "status": "active"
+      }
+    },
+    {
+      "source_id": "toledo-food-specials",
+      "claim": {
+        "schema_version": 1,
+        "id": "dorr-st-cafe-wed",
+        "place_id": "dorr-st-cafe",
+        "kind": "timing",
+        "observation": "Wednesdays: $1 tacos (Guys Night); happy hour open to close daily. Verified open 2026-10-09.",
+        "source": {
+          "type": "published_source",
+          "url": "https://www.toledo.com/happy-hour-specials/",
+          "retrieved_on": "2026-10-08"
+        },
+        "asserted_on": "2026-10-09",
+        "status": "active"
+      }
+    },
+    {
+      "source_id": "toledo-food-specials",
+      "claim": {
+        "schema_version": 1,
+        "id": "el-patron-daily",
+        "place_id": "el-patron",
+        "kind": "timing",
+        "observation": "Daily 5–9pm happy hour.",
+        "source": {
+          "type": "published_source",
+          "url": "https://toledocitypaper.com/food-drink/the-happiest-hours-in-toledo/",
+          "retrieved_on": "2026-10-08"
+        },
+        "asserted_on": "2026-10-08",
+        "status": "active"
+      }
+    },
+    {
+      "source_id": "toledo-food-specials",
+      "claim": {
+        "schema_version": 1,
+        "id": "el-vaquero-main-st-daily",
+        "place_id": "el-vaquero-main-st",
+        "kind": "timing",
+        "observation": "Happy hour 4–8pm daily; early happy hour 2–4pm with half-price appetizers.",
+        "source": {
+          "type": "published_source",
+          "url": "https://toledocitypaper.com/food-drink/the-happiest-hours-in-toledo/",
+          "retrieved_on": "2026-10-08"
+        },
+        "asserted_on": "2026-10-08",
+        "status": "active"
+      }
+    },
+    {
+      "source_id": "toledo-food-specials",
+      "claim": {
+        "schema_version": 1,
+        "id": "el-vaquero-perrysburg-daily",
+        "place_id": "el-vaquero-perrysburg",
+        "kind": "timing",
+        "observation": "Happy hour 4–8pm daily; early happy hour 2–4pm with half-price appetizers.",
+        "source": {
+          "type": "published_source",
+          "url": "https://toledocitypaper.com/food-drink/the-happiest-hours-in-toledo/",
+          "retrieved_on": "2026-10-08"
+        },
+        "asserted_on": "2026-10-08",
+        "status": "active"
+      }
+    },
+    {
+      "source_id": "toledo-food-specials",
+      "claim": {
+        "schema_version": 1,
+        "id": "el-vaquero-secor-daily",
+        "place_id": "el-vaquero-secor",
+        "kind": "timing",
+        "observation": "Happy hour 4–8pm daily; early happy hour 2–4pm with half-price appetizers.",
+        "source": {
+          "type": "published_source",
+          "url": "https://toledocitypaper.com/food-drink/the-happiest-hours-in-toledo/",
+          "retrieved_on": "2026-10-08"
+        },
+        "asserted_on": "2026-10-08",
+        "status": "active"
+      }
+    },
+    {
+      "source_id": "toledo-food-specials",
+      "claim": {
+        "schema_version": 1,
+        "id": "frontera-sabores-de-mexico-daily",
+        "place_id": "frontera-sabores-de-mexico",
+        "kind": "timing",
+        "observation": "Daily 2–5pm: half off appetizers & drinks.",
+        "source": {
+          "type": "published_source",
+          "url": "https://toledocitypaper.com/food-drink/the-happiest-hours-in-toledo/",
+          "retrieved_on": "2026-10-08"
+        },
+        "asserted_on": "2026-10-08",
+        "status": "active"
+      }
+    },
+    {
+      "source_id": "toledo-food-specials",
+      "claim": {
+        "schema_version": 1,
+        "id": "fuzzys-taco-shop-tue",
+        "place_id": "fuzzys-taco-shop",
+        "kind": "timing",
+        "observation": "Tuesdays: $2.50 tacos all day ($3.50 premium meats).",
+        "source": {
+          "type": "published_source",
+          "url": "https://fastfoodclub.com/p/believe-it-or-not-some-of-ohio-s-best-tacos-come-from-these-7-unassuming-taquerias-86051f81/",
+          "retrieved_on": "2026-10-08"
+        },
+        "asserted_on": "2026-10-08",
+        "status": "active"
+      }
+    },
+    {
+      "source_id": "toledo-food-specials",
+      "claim": {
+        "schema_version": 1,
+        "id": "home-slice-pizza-mon",
+        "place_id": "home-slice-pizza",
+        "kind": "timing",
+        "observation": "Mondays: $5 personal pizza + $1 off drafts. Dine-in, from 5pm.",
+        "source": {
+          "type": "published_source",
+          "url": "https://www.toledo.com/happy-hour-specials/",
+          "retrieved_on": "2026-10-08"
+        },
+        "asserted_on": "2026-10-08",
+        "status": "active"
+      }
+    },
+    {
+      "source_id": "toledo-food-specials",
+      "claim": {
+        "schema_version": 1,
+        "id": "home-slice-pizza-thu",
+        "place_id": "home-slice-pizza",
+        "kind": "timing",
+        "observation": "Thursdays: half-off appetizers + $1 off drafts. Dine-in, from 5pm.",
+        "source": {
+          "type": "published_source",
+          "url": "https://www.toledo.com/happy-hour-specials/",
+          "retrieved_on": "2026-10-08"
+        },
+        "asserted_on": "2026-10-08",
+        "status": "active"
+      }
+    },
+    {
+      "source_id": "toledo-food-specials",
+      "claim": {
+        "schema_version": 1,
+        "id": "home-slice-pizza-tue",
+        "place_id": "home-slice-pizza",
+        "kind": "timing",
+        "observation": "Tuesdays: 50% off pizzas. Dine-in, from 5pm.",
+        "source": {
+          "type": "published_source",
+          "url": "https://www.eatdrinkdeals.com/tuesday-restaurant-specials-and-deals/",
+          "retrieved_on": "2026-10-08"
+        },
+        "asserted_on": "2026-10-08",
+        "status": "active"
+      }
+    },
+    {
+      "source_id": "toledo-food-specials",
+      "claim": {
+        "schema_version": 1,
+        "id": "home-slice-pizza-wed",
+        "place_id": "home-slice-pizza",
+        "kind": "timing",
+        "observation": "Wednesdays: $5 off specialty pizza. Dine-in, from 5pm.",
+        "source": {
+          "type": "published_source",
+          "url": "https://www.toledo.com/happy-hour-specials/",
+          "retrieved_on": "2026-10-08"
+        },
+        "asserted_on": "2026-10-08",
+        "status": "active"
+      }
+    },
+    {
+      "source_id": "toledo-food-specials",
+      "claim": {
+        "schema_version": 1,
+        "id": "jamos-pub-daily",
+        "place_id": "jamos-pub",
+        "kind": "timing",
+        "observation": "Daily 5–11pm: $5 domestic pitchers, $2 domestic bottles, $8 chunks/pizza, $12 sampler.",
+        "source": {
+          "type": "published_source",
+          "url": "https://toledocitypaper.com/food-drink/the-happiest-hours-in-toledo/",
+          "retrieved_on": "2026-10-08"
+        },
+        "asserted_on": "2026-10-08",
+        "status": "active"
+      }
+    },
+    {
+      "source_id": "toledo-food-specials",
+      "claim": {
+        "schema_version": 1,
+        "id": "la-chalupa-tue",
+        "place_id": "la-chalupa",
+        "kind": "timing",
+        "observation": "Taco Tuesday: $1.50 tacos. Verified open 2026-10-09; reviewer-reported $1.50 (not $1) — confirm at the door.",
+        "source": {
+          "type": "published_source",
+          "url": "https://fastfoodclub.com/p/believe-it-or-not-some-of-ohio-s-best-tacos-come-from-these-7-unassuming-taquerias-86051f81/",
+          "retrieved_on": "2026-10-08"
+        },
+        "asserted_on": "2026-10-09",
+        "status": "active"
+      }
+    },
+    {
+      "source_id": "toledo-food-specials",
+      "claim": {
+        "schema_version": 1,
+        "id": "mancys-bluewater-grille-daily",
+        "place_id": "mancys-bluewater-grille",
+        "kind": "timing",
+        "observation": "Daily 3–6pm: half off select drinks & bar food.",
+        "source": {
+          "type": "published_source",
+          "url": "https://toledocitypaper.com/food-drink/the-happiest-hours-in-toledo/",
+          "retrieved_on": "2026-10-08"
+        },
+        "asserted_on": "2026-10-08",
+        "status": "active"
+      }
+    },
+    {
+      "source_id": "toledo-food-specials",
+      "claim": {
+        "schema_version": 1,
+        "id": "manhattans-pub-n-cheer-mon",
+        "place_id": "manhattans-pub-n-cheer",
+        "kind": "timing",
+        "observation": "Mondays 2–7pm: $1.50 off drafts, $5 margaritas.",
+        "source": {
+          "type": "published_source",
+          "url": "https://toledocitypaper.com/food-drink/the-happiest-hours-in-toledo/",
+          "retrieved_on": "2026-10-08"
+        },
+        "asserted_on": "2026-10-08",
+        "status": "active"
+      }
+    },
+    {
+      "source_id": "toledo-food-specials",
+      "claim": {
+        "schema_version": 1,
+        "id": "manhattans-pub-n-cheer-thu",
+        "place_id": "manhattans-pub-n-cheer",
+        "kind": "timing",
+        "observation": "Thursdays 2–7pm: $3.50 single wells, $5 house martinis.",
+        "source": {
+          "type": "published_source",
+          "url": "https://toledocitypaper.com/food-drink/the-happiest-hours-in-toledo/",
+          "retrieved_on": "2026-10-08"
+        },
+        "asserted_on": "2026-10-08",
+        "status": "active"
+      }
+    },
+    {
+      "source_id": "toledo-food-specials",
+      "claim": {
+        "schema_version": 1,
+        "id": "nakama-daily",
+        "place_id": "nakama",
+        "kind": "timing",
+        "observation": "Daily 4–6pm: $3 off select apps & all beer, $5 house wine, buy-2-get-1 sushi rolls.",
+        "source": {
+          "type": "published_source",
+          "url": "https://toledocitypaper.com/food-drink/the-happiest-hours-in-toledo/",
+          "retrieved_on": "2026-10-08"
+        },
+        "asserted_on": "2026-10-08",
+        "status": "active"
+      }
+    },
+    {
+      "source_id": "toledo-food-specials",
+      "claim": {
+        "schema_version": 1,
+        "id": "old-bag-of-nails-promedica-wed",
+        "place_id": "old-bag-of-nails-promedica",
+        "kind": "timing",
+        "observation": "Wednesdays: $10 off wine bottles + happy hour 2–7pm.",
+        "source": {
+          "type": "published_source",
+          "url": "https://toledocitypaper.com/food-drink/the-happiest-hours-in-toledo/",
+          "retrieved_on": "2026-10-08"
+        },
+        "asserted_on": "2026-10-08",
+        "status": "active"
+      }
+    },
+    {
+      "source_id": "toledo-food-specials",
+      "claim": {
+        "schema_version": 1,
+        "id": "old-bag-of-nails-riverside-wed",
+        "place_id": "old-bag-of-nails-riverside",
+        "kind": "timing",
+        "observation": "Wednesdays: $10 off wine bottles + happy hour 2–7pm.",
+        "source": {
+          "type": "published_source",
+          "url": "https://toledocitypaper.com/food-drink/the-happiest-hours-in-toledo/",
+          "retrieved_on": "2026-10-08"
+        },
+        "asserted_on": "2026-10-08",
+        "status": "active"
+      }
+    },
+    {
+      "source_id": "toledo-food-specials",
+      "claim": {
+        "schema_version": 1,
+        "id": "paddy-jacks-sun",
+        "place_id": "paddy-jacks",
+        "kind": "timing",
+        "observation": "Sundays: $5 Bloody Mary.",
+        "source": {
+          "type": "published_source",
+          "url": "https://www.toledo.com/happy-hour-specials/",
+          "retrieved_on": "2026-10-08"
+        },
+        "asserted_on": "2026-10-08",
+        "status": "active"
+      }
+    },
+    {
+      "source_id": "toledo-food-specials",
+      "claim": {
+        "schema_version": 1,
+        "id": "poco-piatti-perrysburg-mon",
+        "place_id": "poco-piatti-perrysburg",
+        "kind": "timing",
+        "observation": "Mondays 4–7pm: discounted martinis.",
+        "source": {
+          "type": "published_source",
+          "url": "https://toledocitypaper.com/food-drink/the-happiest-hours-in-toledo/",
+          "retrieved_on": "2026-10-08"
+        },
+        "asserted_on": "2026-10-08",
+        "status": "active"
+      }
+    },
+    {
+      "source_id": "toledo-food-specials",
+      "claim": {
+        "schema_version": 1,
+        "id": "poco-piatti-perrysburg-sun",
+        "place_id": "poco-piatti-perrysburg",
+        "kind": "timing",
+        "observation": "Sundays: half off sangria, all day.",
+        "source": {
+          "type": "published_source",
+          "url": "https://toledocitypaper.com/food-drink/the-happiest-hours-in-toledo/",
+          "retrieved_on": "2026-10-08"
+        },
+        "asserted_on": "2026-10-08",
+        "status": "active"
+      }
+    },
+    {
+      "source_id": "toledo-food-specials",
+      "claim": {
+        "schema_version": 1,
+        "id": "poco-piatti-perrysburg-thu",
+        "place_id": "poco-piatti-perrysburg",
+        "kind": "timing",
+        "observation": "Thursdays 4–7pm: half off sangria.",
+        "source": {
+          "type": "published_source",
+          "url": "https://toledocitypaper.com/food-drink/the-happiest-hours-in-toledo/",
+          "retrieved_on": "2026-10-08"
+        },
+        "asserted_on": "2026-10-08",
+        "status": "active"
+      }
+    },
+    {
+      "source_id": "toledo-food-specials",
+      "claim": {
+        "schema_version": 1,
+        "id": "poco-piatti-perrysburg-wed",
+        "place_id": "poco-piatti-perrysburg",
+        "kind": "timing",
+        "observation": "Wednesdays 4–7pm: discounted wines.",
+        "source": {
+          "type": "published_source",
+          "url": "https://toledocitypaper.com/food-drink/the-happiest-hours-in-toledo/",
+          "retrieved_on": "2026-10-08"
+        },
+        "asserted_on": "2026-10-08",
+        "status": "active"
+      }
+    },
+    {
+      "source_id": "toledo-food-specials",
+      "claim": {
+        "schema_version": 1,
+        "id": "poco-piatti-sylvania-mon",
+        "place_id": "poco-piatti-sylvania",
+        "kind": "timing",
+        "observation": "Mondays 4–7pm: discounted martinis.",
+        "source": {
+          "type": "published_source",
+          "url": "https://toledocitypaper.com/food-drink/the-happiest-hours-in-toledo/",
+          "retrieved_on": "2026-10-08"
+        },
+        "asserted_on": "2026-10-08",
+        "status": "active"
+      }
+    },
+    {
+      "source_id": "toledo-food-specials",
+      "claim": {
+        "schema_version": 1,
+        "id": "poco-piatti-sylvania-sun",
+        "place_id": "poco-piatti-sylvania",
+        "kind": "timing",
+        "observation": "Sundays: half off sangria, all day.",
+        "source": {
+          "type": "published_source",
+          "url": "https://toledocitypaper.com/food-drink/the-happiest-hours-in-toledo/",
+          "retrieved_on": "2026-10-08"
+        },
+        "asserted_on": "2026-10-08",
+        "status": "active"
+      }
+    },
+    {
+      "source_id": "toledo-food-specials",
+      "claim": {
+        "schema_version": 1,
+        "id": "poco-piatti-sylvania-thu",
+        "place_id": "poco-piatti-sylvania",
+        "kind": "timing",
+        "observation": "Thursdays 4–7pm: half off sangria.",
+        "source": {
+          "type": "published_source",
+          "url": "https://toledocitypaper.com/food-drink/the-happiest-hours-in-toledo/",
+          "retrieved_on": "2026-10-08"
+        },
+        "asserted_on": "2026-10-08",
+        "status": "active"
+      }
+    },
+    {
+      "source_id": "toledo-food-specials",
+      "claim": {
+        "schema_version": 1,
+        "id": "poco-piatti-sylvania-wed",
+        "place_id": "poco-piatti-sylvania",
+        "kind": "timing",
+        "observation": "Wednesdays 4–7pm: discounted wines.",
+        "source": {
+          "type": "published_source",
+          "url": "https://toledocitypaper.com/food-drink/the-happiest-hours-in-toledo/",
+          "retrieved_on": "2026-10-08"
+        },
+        "asserted_on": "2026-10-08",
+        "status": "active"
+      }
+    },
+    {
+      "source_id": "toledo-food-specials",
+      "claim": {
+        "schema_version": 1,
+        "id": "real-seafood-company-daily",
+        "place_id": "real-seafood-company",
+        "kind": "timing",
+        "observation": "Daily 4–6pm: $2 off shared plates, $3 drafts, $5 wine & sangria, $7 specialty cocktails.",
+        "source": {
+          "type": "published_source",
+          "url": "https://toledocitypaper.com/food-drink/the-happiest-hours-in-toledo/",
+          "retrieved_on": "2026-10-08"
+        },
+        "asserted_on": "2026-10-08",
+        "status": "active"
+      }
+    },
+    {
+      "source_id": "toledo-food-specials",
+      "claim": {
+        "schema_version": 1,
+        "id": "rosies-italian-grille-daily",
+        "place_id": "rosies-italian-grille",
+        "kind": "timing",
+        "observation": "Daily 3–6pm: appetizer & pizza specials, $7 select drinks.",
+        "source": {
+          "type": "published_source",
+          "url": "https://toledocitypaper.com/food-drink/the-happiest-hours-in-toledo/",
+          "retrieved_on": "2026-10-08"
+        },
+        "asserted_on": "2026-10-08",
+        "status": "active"
+      }
+    },
+    {
+      "source_id": "toledo-food-specials",
+      "claim": {
+        "schema_version": 1,
+        "id": "sidelines-maumee-daily",
+        "place_id": "sidelines-maumee",
+        "kind": "timing",
+        "observation": "Mon–Fri 2–5pm: $2 domestics, $3 wells, $5 select apps.",
+        "source": {
+          "type": "published_source",
+          "url": "https://toledocitypaper.com/food-drink/the-happiest-hours-in-toledo/",
+          "retrieved_on": "2026-10-08"
+        },
+        "asserted_on": "2026-10-08",
+        "status": "active"
+      }
+    },
+    {
+      "source_id": "toledo-food-specials",
+      "claim": {
+        "schema_version": 1,
+        "id": "sidelines-mellwood-daily",
+        "place_id": "sidelines-mellwood",
+        "kind": "timing",
+        "observation": "Mon–Fri 2–5pm: $2 domestics, $3 wells, $5 select apps.",
+        "source": {
+          "type": "published_source",
+          "url": "https://toledocitypaper.com/food-drink/the-happiest-hours-in-toledo/",
+          "retrieved_on": "2026-10-08"
+        },
+        "asserted_on": "2026-10-08",
+        "status": "active"
+      }
+    },
+    {
+      "source_id": "toledo-food-specials",
+      "claim": {
+        "schema_version": 1,
+        "id": "sidelines-perrysburg-daily",
+        "place_id": "sidelines-perrysburg",
+        "kind": "timing",
+        "observation": "Mon–Fri 2–5pm: $2 domestics, $3 wells, $5 select apps.",
+        "source": {
+          "type": "published_source",
+          "url": "https://toledocitypaper.com/food-drink/the-happiest-hours-in-toledo/",
+          "retrieved_on": "2026-10-08"
+        },
+        "asserted_on": "2026-10-08",
+        "status": "active"
+      }
+    },
+    {
+      "source_id": "toledo-food-specials",
+      "claim": {
+        "schema_version": 1,
+        "id": "sidelines-renaissance-daily",
+        "place_id": "sidelines-renaissance",
+        "kind": "timing",
+        "observation": "Mon–Fri 2–5pm: $2 domestics, $3 wells, $5 select apps.",
+        "source": {
+          "type": "published_source",
+          "url": "https://toledocitypaper.com/food-drink/the-happiest-hours-in-toledo/",
+          "retrieved_on": "2026-10-08"
+        },
+        "asserted_on": "2026-10-08",
+        "status": "active"
+      }
+    },
+    {
+      "source_id": "toledo-food-specials",
+      "claim": {
+        "schema_version": 1,
+        "id": "sidelines-telegraph-daily",
+        "place_id": "sidelines-telegraph",
+        "kind": "timing",
+        "observation": "Mon–Fri 2–5pm: $2 domestics, $3 wells, $5 select apps.",
+        "source": {
+          "type": "published_source",
+          "url": "https://toledocitypaper.com/food-drink/the-happiest-hours-in-toledo/",
+          "retrieved_on": "2026-10-08"
+        },
+        "asserted_on": "2026-10-08",
+        "status": "active"
+      }
+    },
+    {
+      "source_id": "toledo-food-specials",
+      "claim": {
+        "schema_version": 1,
+        "id": "stubborn-brother-pizza-bar-fri",
+        "place_id": "stubborn-brother-pizza-bar",
+        "kind": "timing",
+        "observation": "2–5pm deals daily Mon–Thu: $4 domestic cans, $4 wells, $5 bruschetta & garlic rolls.",
+        "source": {
+          "type": "published_source",
+          "url": "https://www.toledo.com/happy-hour-specials/",
+          "retrieved_on": "2026-10-08"
+        },
+        "asserted_on": "2026-10-08",
+        "status": "active"
+      }
+    },
+    {
+      "source_id": "toledo-food-specials",
+      "claim": {
+        "schema_version": 1,
+        "id": "taqueria-el-gallo-de-oro-tue",
+        "place_id": "taqueria-el-gallo-de-oro",
+        "kind": "timing",
+        "observation": "Taco Tuesday: $1.75 tacos.",
+        "source": {
+          "type": "published_source",
+          "url": "https://fastfoodclub.com/p/believe-it-or-not-some-of-ohio-s-best-tacos-come-from-these-7-unassuming-taquerias-86051f81/",
+          "retrieved_on": "2026-10-08"
+        },
+        "asserted_on": "2026-10-08",
+        "status": "active"
+      }
+    },
+    {
+      "source_id": "toledo-food-specials",
+      "claim": {
+        "schema_version": 1,
+        "id": "tekela-perrysburg-daily",
+        "place_id": "tekela-perrysburg",
+        "kind": "timing",
+        "observation": "Daily 3–5:30pm: half off apps & drinks.",
+        "source": {
+          "type": "published_source",
+          "url": "https://toledocitypaper.com/food-drink/the-happiest-hours-in-toledo/",
+          "retrieved_on": "2026-10-08"
+        },
+        "asserted_on": "2026-10-08",
+        "status": "active"
+      }
+    },
+    {
+      "source_id": "toledo-food-specials",
+      "claim": {
+        "schema_version": 1,
+        "id": "tekela-sylvania-daily",
+        "place_id": "tekela-sylvania",
+        "kind": "timing",
+        "observation": "Daily 3–5:30pm: half off apps & drinks.",
+        "source": {
+          "type": "published_source",
+          "url": "https://toledocitypaper.com/food-drink/the-happiest-hours-in-toledo/",
+          "retrieved_on": "2026-10-08"
+        },
+        "asserted_on": "2026-10-08",
+        "status": "active"
+      }
+    },
+    {
+      "source_id": "toledo-food-specials",
+      "claim": {
+        "schema_version": 1,
+        "id": "the-distillery-daily",
+        "place_id": "the-distillery",
+        "kind": "timing",
+        "observation": "Happy hour open–6pm; power hour 5–6pm: $1.75 domestics & wells.",
+        "source": {
+          "type": "published_source",
+          "url": "https://toledocitypaper.com/food-drink/the-happiest-hours-in-toledo/",
+          "retrieved_on": "2026-10-08"
+        },
+        "asserted_on": "2026-10-08",
+        "status": "active"
+      }
+    },
+    {
+      "source_id": "toledo-food-specials",
+      "claim": {
+        "schema_version": 1,
+        "id": "this-is-it-drinks-bbq-tue",
+        "place_id": "this-is-it-drinks-bbq",
+        "kind": "timing",
+        "observation": "Taco Tuesdays.",
+        "source": {
+          "type": "published_source",
+          "url": "https://fastfoodclub.com/p/believe-it-or-not-some-of-ohio-s-best-tacos-come-from-these-7-unassuming-taquerias-86051f81/",
+          "retrieved_on": "2026-10-08"
+        },
+        "asserted_on": "2026-10-08",
         "status": "active"
       }
     }
